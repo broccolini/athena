@@ -18,10 +18,10 @@
 }
 
 .no-underline-hover {
-  
+
   &:hover {
-    text-decoration: none;
-    border-bottom: none;
+    text-decoration: none !important;
+    border-bottom: none !important;
   }
 }
 
@@ -117,6 +117,10 @@
   .block-lg { display: block !important; }
   .inline-block-lg { display: inline-block; }
 
+}
+
+@media (max-width: $breakpoint-lg) {
+  .hide-sm { display: none !important; }
 }
 
 

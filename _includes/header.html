@@ -1,17 +1,16 @@
 <header class="px-2 clearfix">
-  <div class="left sm-width-full py-1 mt-1 mt-lg-0">
-    <a class="align-middle link-primary text-accent" href="{{ site.baseurl }}/">
-      {{ site.title }}
+  <div class="left-lg sm-width-full mt-2 ml-1">
+    <span class="inline-block h4 hide-sm">&#x2190;</span>
+    <a class="h4 italic no-underline font-smoothing" href="{{ site.baseurl }}/">
+       {{ site.title }}
     </a>
   </div>
-  <div class="right sm-width-full">
-    <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
       {% for my_page in site.pages %}
         {% if my_page.title %}
-        <li class="inline-block">
-          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
+        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+          <a class="italic no-underline h4 font-smoothing" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
         </li>
         {% endif %}
       {% endfor %}
