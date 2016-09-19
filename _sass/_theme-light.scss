@@ -2,17 +2,18 @@
 
 // Color variables
 $black: #2B2826;
-$gray: #423F38;
+$gray-dark: #423F38;
+$gray: #A09992;
 $gray-light: #D7D5D1;
 $white: #fff;
-
+$burgundy: #B54545;
 // Config
 $color-background: $white !default;
 $color-foreground: $black !default;
 $color-title: $black !default;
 $color-body-text: $black !default;
-$color-text-accent: $black !default;
-$color-code: $gray !default;
+$color-text-accent: $gray-dark !default;
+$color-code: $gray-dark !default;
 $color-nav-link: $black !default;
 $color-primary-link: $gray !default;
 $color-border: $gray-light !default;
