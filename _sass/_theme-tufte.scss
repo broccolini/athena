@@ -1,0 +1,33 @@
+// White theme
+
+// Color variables
+$black: #444;
+$gray-dark: #555;
+$gray: #A09992;
+$gray-light: #D7D5D1;
+$white: #fff;
+// $burgundy: #B54545;
+$burgundy: #A45656;
+
+$yellow: #F4F0E6;
+
+// Config
+$color-background: $yellow !default;
+$color-foreground: $gray-dark !default;
+$color-title: $gray-dark !default;
+$color-body-text: $gray-dark !default;
+$color-text-accent: $burgundy !default;
+$color-code: $burgundy !default;
+$color-nav-link: $burgundy !default;
+$color-primary-link: $burgundy !default;
+$color-primary-underline: $burgundy !default;
+$color-border: $burgundy !default;
+
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities"
+;

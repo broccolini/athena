@@ -1,0 +1,35 @@
+// White theme
+
+// Color variables
+$black: #161D1D;
+$blue: #2c90a9;
+$gray: #A09992;
+$blue-light: #E3F3F7;
+$white: #fff;
+$orange: #B1562F;
+// Config
+
+$color-body-text: $white;
+$color-background: $blue !default;
+$color-foreground: $white !default;
+$color-title: $blue-light !default;
+$color-body-text: $white !default;
+$color-text-accent: $blue-light !default;
+$color-code: $black !default;
+$color-nav-link: $white !default;
+$color-primary-link: $blue-light !default;
+$color-primary-underline: $black !default;
+$color-border: $blue-light !default;
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities"
+;
