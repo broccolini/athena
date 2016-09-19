@@ -35,8 +35,9 @@
   padding-bottom: 1px;
 
   &:hover {
+    color: $color-primary-link;
     text-decoration: none;
-    border-bottom: 2px dotted $color-primary-link;
+    border-bottom: 2px dotted;
   }
 }
 
