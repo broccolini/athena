@@ -2,6 +2,8 @@
 
 A simple and elegant theme for Jekyll and GitHub Pages.
 
+<img width="1280" alt="screenshot" src="https://cloud.githubusercontent.com/assets/334891/18644225/7f124416-7e76-11e6-899e-4f722a572171.png">
+
 ### Features:
 * Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
 * Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
