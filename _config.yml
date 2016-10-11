@@ -28,6 +28,7 @@ social_username: broccolini
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
 theme_color: light
+theme: jekyll-athena
 
 # Build settings
 markdown: kramdown
