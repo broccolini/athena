@@ -31,3 +31,5 @@ theme_color: light
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-feed
