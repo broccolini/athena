@@ -1,16 +1,16 @@
 <header class="px-2 clearfix">
   <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
-    <a class="no-underline-hover px-1" href="{{ site.baseurl }}/">
+    <a class="no-underline-hover px-1" href="{{ "/" | relative_url }}">
       <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
     </a>
-    <a class="italic no-underline" href="{{ site.baseurl }}/">
+    <a class="italic no-underline" href="{{ "/" | relative_url }}">
        home
     </a>
   </div> -->
   <div class="right-lg absolute-lg right-0 top-0">
     <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
       <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
+        <a class="italic h4 bold no-underline" href="{{ "/" | relative_url }}">
           <!-- {{ site.title }} -->
           Home
         </a>
@@ -18,7 +18,7 @@
       {% for my_page in site.pages %}
         {% if my_page.title %}
         <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+          <a class="italic no-underline h4" href="{{ my_page.url | relative_url }}">
             {{ my_page.title }}
           </a>
         </li>
