@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-athena"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["broccolini"]
   spec.email         = ["diana.mounter@gmail.com"]
 
