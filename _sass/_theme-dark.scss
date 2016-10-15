@@ -6,7 +6,7 @@ $gray-dark: #423F38;
 $gray: #A09992;
 $gray-light: #BBB4B4;
 $white: #fff;
-$orange: #B1562F;
+$orange: #d57146;
 
 // Config
 $color-body-text: $gray-light;
@@ -19,7 +19,7 @@ $color-code: $orange !default;
 $color-nav-link: $white !default;
 $color-primary-link: $orange !default;
 $color-primary-underline: $gray !default;
-$color-border: $gray-light !default;
+$color-border: $orange !default;
 
 .font-smoothing {
   -webkit-font-smoothing: antialiased;
