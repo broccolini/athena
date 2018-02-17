@@ -206,3 +206,8 @@
   .mb-lg-4 { margin-bottom: $spacer-4; }
   .ml-lg-4 { margin-left: $spacer-4; }
 }
+.img + em {
+  text-align: center;
+  color: $grey-color;
+  margin-top: $spacing-unit / 3;
+}
