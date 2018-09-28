@@ -33,6 +33,22 @@ Or install it yourself as:
 
     $ gem install jekyll-athena
 
+## Localization
+
+Your site is not English? We've got your back. All strings are translatable and you can also change the date format by adding this configuration to your `_config.yml`:
+
+```
+# Modify the strings to adapt the theme.
+# The format for the date syntax is the same as http://strftime.net/
+jekyll-athena:
+  date_format: "%b %-d, %Y"
+  translations:
+    home: "Home"
+    maintained_by: "This project is maintained by %s"
+    page_previous: "Previous"
+    page_next: "Next"
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/broccolini/athena. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.

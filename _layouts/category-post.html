@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-
+{% assign date_format = site.jekyll-athena.date_format | default: "%b %-d, %Y" %}
 <article class="container mx-auto px-2" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="mt-4 mb-2 clearfix header-text">
     <h1 class="h0 inline-block py-2 mt-4 header-title">{{ page.title }}</h1>
     <div class="clearfix mb-4 py-1">
-      <p class="h4 lh-condensed"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+      <p class="h4 lh-condensed"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time></p>
       <div class="col-1 sm-width-full border-top-thick">
       </div>
     </div>
