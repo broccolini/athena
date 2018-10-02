@@ -33,6 +33,8 @@ Or install it yourself as:
 
     $ gem install jekyll-athena
 
+_Note_: the Twitter sharing button get the configuration key `twitter_username` and `twitter_hashtags` from your Jekyll configuration (if they exist) to customize the button.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/broccolini/athena. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
