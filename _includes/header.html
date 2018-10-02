@@ -12,7 +12,7 @@
       <li class="inline-block block-lg text-right ml-1 ml-lg-0">
         <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
           <!-- {{ site.title }} -->
-          Home
+          {{ site.jekyll-athena.translations.home | default: "Home" }}
         </a>
       </li>
       {% for my_page in site.pages %}

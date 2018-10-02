@@ -1,8 +1,9 @@
 <!-- Renders post date, title, and snippet of text. -->
+{% assign date_format = site.jekyll-athena.date_format | default: "%b %-d, %Y" %}
 <div class="py-2 mb-2 prose">
   <h2 class="h1 lh-condensed col-9 mb-0">
     <a class="link-primary" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>
-  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+  <a class="no-underline-hover h5 block py-1 mb-1" title="{{ post.url | prepend: site.baseurl }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: date_format }}</a>
   <p>{{ post.content | strip_html | truncatewords:30 }}</p>
 </div>
