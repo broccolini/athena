@@ -19,6 +19,7 @@ description: A simple and elegant theme for Jekyll and GitHub Pages.
 url: "http://broccolini.net" # the base hostname & protocol for your site
 github_repo: athena # the GitHub repo name for your project
 github_username: broccolini
+# google_analytics: UA-XXXXXXXX-X
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
